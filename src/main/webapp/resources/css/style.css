@@ -1,0 +1,364 @@
+body {
+	min-width: 700px;
+	/* Suppose you want minimum width of 1000px */
+	width: auto !important;
+	/* Firefox will set width as auto */
+	width: 700px;
+	/* As IE6 ignores !important it will set width as 1000px; */
+	background-color: white !important;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.error {
+	color: red;
+}
+
+#featured {
+	width: 32px;
+	height: 32px;
+	background-image: url("/resources/assets/nav-bar-icons/menu-icons.png");
+	background-size: 528px;
+	background-color: rgba();
+	background-position: -39px 48px;
+	line-height: 50px;
+}
+
+/*
+#featured :hover {
+	background-position: -80px 20.031250em;
+}
+*/
+
+#topcharts {
+	width: 32px;
+	height: 32px;
+	background-image: url("/resources/assets/nav-bar-icons/menu-icons.png");
+	background-size: 528px;
+	background-color: rgba();
+	background-position: -39px 48px;
+	line-height: 50px;
+}
+
+/*
+#topcharts:hover {
+	background-position: -80px 20.031250em;
+}
+*/
+
+#categories {
+	width: 32px;
+	height: 32px;
+	background-image: url("/resources/assets/nav-bar-icons/menu-icons.png");
+	background-size: 528px;
+	background-color: rgba();
+	background-position: -39px 48px;
+	line-height: 50px;
+}
+
+/*
+#categories:hover {
+	background-position: -80px 20.031250em;
+}
+*/
+
+#purchased {
+	width: 32px;
+	height: 32px;
+	background-image: url("/resources/assets/nav-bar-icons/menu-icons.png");
+	background-size: 528px;
+	background-color: rgba();
+	background-position: -39px 48px;
+	line-height: 50px;
+}
+
+/*
+#purchased:hover {
+	background-position: -80px 20.031250em;
+}
+*/
+
+#search {
+	width: 35px;
+	height: 31px;
+	background-image: url(/resources/assets/nav-bar-icons/i1_1967ca6a.png);
+	background-size: 528px;
+	background-position: 285px 38px;
+	line-height: 50px;
+}
+
+#search-form {
+/*    display: none;*/
+}
+
+.nav-item {
+	margin-right: 50px;
+}
+
+.blur {
+	top: -10px;
+	left: 0;
+	width: 100%;
+	height: 114%;
+	position: absolute;
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	opacity: 0.8;
+	background-image: url(/resources/assets/nav-bar-icons/menu.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1400px;
+}
+
+nav {
+	
+}
+
+.navbar {
+	border-bottom: 1px;
+	border-bottom-color: gainsboro;
+	border-bottom-style: solid;
+	height: 70px;
+}
+
+.row {
+	height: 130px;
+
+/*	                border-style: solid;*/
+}
+
+#title-row {
+	margin-top: 250px;
+	height: 20px;
+}
+
+#main-row {
+	margin-top: 50px;
+	height: 200px;
+}
+
+.links {
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gainsboro;
+}
+
+.category {
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gainsboro;
+}
+
+.nopadding {
+	padding-left: 0 !important;
+}
+
+header {
+}
+
+.col-title {
+	height: 20px;
+	border-bottom-color: gainsboro;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+quicklinks ul {
+	padding-top: 10px;
+	color: #212529;
+	color: rgba(0, 0, 0, .6);
+	margin-left: -15px
+}
+
+/*
+. ul form {
+    position: relative;
+    left: -20px;
+    max-width: 200px;
+}
+*/
+
+.menu {
+	margin-left: 20px;
+    z-index: 200;
+}
+
+#slide-main {
+	margin: 50px auto;
+	position: relative;
+	width: 240px;
+	height: 240px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow {
+	z-index: 100;
+	height: 100%;
+	position: relative;
+}
+
+#hide {
+	z-index: 200;
+	height: 100%;
+	position: relative;
+}
+
+#hide>div {
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-top: 35px
+}
+
+#hide>div>img {
+	height: auto;
+	width: 100%;
+}
+
+#slideshow>div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+
+#slideshow>div>img {
+	height: auto;
+	width: 100%;
+}
+
+.fixed-width {
+	width: 300px;
+}
+
+#main-row {
+	width: 100%;
+	min-width: 70%;
+	max-width: 100%;
+	height: auto;
+}
+
+.book-cell {
+	z-index: 2;
+	height: 90%;
+	border-style: solid;
+	border-color: white;
+}
+
+.book-column {
+	margin-left: 50px;
+	height: 124px;
+	/*    border-color: greenyellow;*/
+}
+
+p {
+	margin-top: 5px;
+	margin-left: 10px;
+	line-height: 15px;
+	white-space: normal;
+}
+
+h6 {
+	margin-top: 5px;
+	line-height: 5px
+}
+
+.menu-btn {
+	background: transparent;
+}
+
+.btn:focus, .btn:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+body {
+	min-width: 0px;
+	margin: 0;
+	height: 100%;
+	/*                        overflow: hidden*/
+}
+
+.scroll-item {
+	height: 465px;
+	width: 100%;
+	position: relative;
+	overflow-y: auto;
+	flex: 1;
+}
+
+#books {
+	/*                        background-color: aqua;*/
+	margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    border-width: thin;
+}
+
+.page-button {
+	background-color: azure;
+	border-color: gainsboro !important;
+	/*                        background-color: rgba(0,0,0,0.5);*/
+	background-color: #f0ffffad;
+}
+
+#button_menu {
+/*	border-top-style: solid;*/
+/*	width: 95%;*/
+/*	height: 10px;*/
+	border-color: gainsboro;
+	border-width: thin;
+    bottom:200px;
+	margin-bottom: 50px;
+	z-index: 200;
+/*	margin-top: 379px;*/
+}
+
+@media ( max-width : 991px) {
+	#button_menu {
+/*		margin-top: 379px;*/
+/*		background-color:aqua;*/
+	}
+    header{
+        width: 991px;
+    }
+}
+
+@media ( max-width : 573px) {
+    #search-input {
+    display: none;
+}
+
+}
+
+#title{
+    width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    border-bottom-width: thin;
+
+}
+#title h5{
+
+    line-height: 12px;
+}
+
+#content {
+	/*                        background-color: aqua;*/
+	margin-top: 100px;
+    margin-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    border-width: thin;
+}
+
+
